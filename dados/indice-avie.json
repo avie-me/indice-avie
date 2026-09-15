@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Atendimento por WhatsApp em clínica com secretária de IA: medições de operação real",
+  "description": "Métricas de tempo de resposta e distribuição horária medidas no atendimento real de uma clínica brasileira que usa a Avie no WhatsApp.",
+  "url": "https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas",
+  "creator": {"@type": "Organization", "name": "Avie", "url": "https://avie.me"},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "pt-BR",
+  "temporalCoverage": "2026-08-09/2026-08-10",
+  "measurementTechnique": "Registros do próprio sistema (logs de geração de resposta e horário de recebimento das mensagens), sem dado que identifique paciente.",
+  "variableMeasured": [
+    {"@type": "PropertyValue", "name": "Respostas geradas em menos de 30 segundos", "value": 97, "unitText": "%", "description": "42 respostas medidas em produção com o modelo GPT-5.6 Luna, 9 e 10 de agosto de 2026."},
+    {"@type": "PropertyValue", "name": "Tempo mediano para ler a conversa e escrever a resposta", "value": 10, "unitText": "segundos", "description": "Mediana das mesmas 42 respostas medidas em produção."},
+    {"@type": "PropertyValue", "name": "Mensagens de pacientes recebidas fora do expediente", "value": 20, "unitText": "%", "description": "Distribuição por horário das mensagens recebidas no atendimento real da clínica."}
+  ]
+}

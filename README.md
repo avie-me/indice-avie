@@ -34,6 +34,6 @@ Dados e textos sob **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)
 
 ## Sobre a Avie
 
-A Avie é uma secretária de IA para clínicas e consultórios. Ela atende pacientes no WhatsApp 24 horas, tira dúvidas com as informações da clínica, oferece os horários livres da agenda da clínica e confirma, remarca ou cancela consultas. A equipe acompanha tudo num CRM próprio e cada clínica ganha um site de agendamento em domínio próprio. Plano único de R$ 1.350/mês por clínica, sem cobrança por mensagem; implantação única de R$ 2.700.
+A Avie é uma secretária de IA para clínicas e consultórios. Ela atende pacientes no WhatsApp 24 horas, tira dúvidas com as informações da clínica, oferece os horários livres da agenda da clínica e confirma, remarca ou cancela consultas. A equipe acompanha tudo num CRM próprio e cada clínica ganha um site de agendamento em domínio próprio.
 
 Mais: https://avie.me · https://avie.me/precos · https://www.linkedin.com/company/avie-me

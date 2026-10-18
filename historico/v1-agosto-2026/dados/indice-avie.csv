@@ -1,0 +1,4 @@
+metrica,valor,unidade,periodo_inicio,periodo_fim,amostra,metodo,fonte
+respostas_geradas_menos_30s,97,%,2026-08-09,2026-08-10,42 respostas,"Registros de geração de resposta em produção (modelo GPT-5.6 Luna)",https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas
+tempo_mediano_geracao_resposta,10,segundos,2026-08-09,2026-08-10,42 respostas,"Mediana das mesmas 42 respostas medidas em produção",https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas
+mensagens_fora_do_expediente,20,%,,,,"Distribuição por horário das mensagens recebidas no atendimento real da clínica",https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas

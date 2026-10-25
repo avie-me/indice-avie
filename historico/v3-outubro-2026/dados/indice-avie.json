@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Índice Avie: atendimento por WhatsApp em consultórios com secretária de IA, medido em operação real",
+  "description": "Métricas medidas nos registros do sistema de dois consultórios brasileiros que usam a Avie no WhatsApp, um pediátrico e um de saúde mental de adultos: tempo de primeira resposta antes e depois da IA, tempo que a IA leva para escrever, distribuição horária das mensagens e encaminhamentos para a equipe.",
+  "url": "https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas",
+  "version": "3",
+  "dateModified": "2026-10-17",
+  "temporalCoverage": "2026-07-06/2026-10-16",
+  "creator": {
+    "@type": "Organization",
+    "name": "Avie",
+    "url": "https://avie.me"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "inLanguage": "pt-BR",
+  "measurementTechnique": "Registros do próprio sistema (horário de recebimento e de envio de cada mensagem, origem de cada envio, registro de cada chamada ao modelo de IA e encaminhamentos), sem números de teste, da equipe ou bloqueados, e sem dado que identifique paciente ou clínica.",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Tempo mediano de primeira resposta da IA ou da equipe, consultório pediátrico, com a IA ligada",
+      "value": 49,
+      "unitText": "segundos",
+      "description": "283 conversas respondidas de 26 de setembro a 16 de outubro de 2026, primeira resposta da IA ou da equipe. Só a IA: mediana de 36 segundos, 219 conversas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempo mediano de primeira resposta da IA ou da equipe, consultório de saúde mental de adultos, com a IA ligada",
+      "value": 58,
+      "unitText": "segundos",
+      "description": "104 conversas respondidas de 29 de setembro a 16 de outubro de 2026, primeira resposta da IA ou da equipe. Só a IA: mediana de 53 segundos, 88 conversas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempo mediano de primeira resposta com atendimento só humano, consultório de saúde mental de adultos",
+      "value": 2.8,
+      "unitText": "horas",
+      "description": "185 conversas de 6 de julho a 26 de setembro de 2026, antes da IA. Primeira mensagem não automática enviada em até 48 horas depois do início da conversa."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempo mediano para a IA ler a conversa e escrever a resposta, consultório pediátrico",
+      "value": 31,
+      "unitText": "segundos",
+      "description": "1.176 respostas de 23 de setembro a 16 de outubro de 2026, modelo gpt-6-luna. Percentil 90 de 62 segundos; 47,5% em menos de 30 segundos."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempo mediano para a IA ler a conversa e escrever a resposta, consultório de saúde mental de adultos",
+      "value": 39,
+      "unitText": "segundos",
+      "description": "630 respostas de 26 de setembro a 16 de outubro de 2026, modelo gpt-6-luna. Percentil 90 de 71 segundos; 30% em menos de 30 segundos."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mensagens de pacientes fora do horário comercial, consultório de saúde mental de adultos",
+      "value": 26.5,
+      "unitText": "%",
+      "description": "2.465 mensagens de 6 de julho a 16 de outubro de 2026. Fora do horário = antes das 8h, a partir das 18h, sábado e domingo, horário de Brasília."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mensagens de pacientes fora do horário comercial, consultório pediátrico",
+      "value": 14.1,
+      "unitText": "%",
+      "description": "2.249 mensagens de 26 de setembro a 16 de outubro de 2026, mesma definição de horário."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Conversas de pacientes passadas para a médica ou a equipe, consultório de saúde mental de adultos",
+      "value": 59.4,
+      "unitText": "%",
+      "description": "41 de 69 conversas com mensagem de paciente de 29 de setembro a 16 de outubro de 2026, com 85 encaminhamentos abertos pela IA."
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/avie-me/indice-avie/main/dados/indice-avie.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://raw.githubusercontent.com/avie-me/indice-avie/main/dados/indice-avie.json"
+    }
+  ]
+}

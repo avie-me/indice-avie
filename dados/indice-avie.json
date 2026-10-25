@@ -4,9 +4,9 @@
   "name": "Índice Avie: atendimento por WhatsApp em consultórios com secretária de IA, medido em operação real",
   "description": "Métricas medidas nos registros do sistema de dois consultórios brasileiros que usam a Avie no WhatsApp, um pediátrico e um de saúde mental de adultos: tempo de primeira resposta antes e depois da IA, tempo que a IA leva para escrever, distribuição horária das mensagens e encaminhamentos para a equipe.",
   "url": "https://avie.me/recursos/estatisticas-atendimento-whatsapp-clinicas",
-  "version": "3",
-  "dateModified": "2026-10-17",
-  "temporalCoverage": "2026-07-06/2026-10-16",
+  "version": "4",
+  "dateModified": "2026-10-18",
+  "temporalCoverage": "2026-07-06/2026-10-18",
   "creator": {
     "@type": "Organization",
     "name": "Avie",
@@ -14,7 +14,7 @@
   },
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "inLanguage": "pt-BR",
-  "measurementTechnique": "Registros do próprio sistema (horário de recebimento e de envio de cada mensagem, origem de cada envio, registro de cada chamada ao modelo de IA e encaminhamentos), sem números de teste, da equipe ou bloqueados, e sem dado que identifique paciente ou clínica.",
+  "measurementTechnique": "Registros do próprio sistema (horário de recebimento e de envio de cada mensagem, origem de cada envio, registro de cada chamada ao modelo de IA e encaminhamentos), sem números de teste, da equipe ou bloqueados, e sem dado que identifique paciente ou clínica. O tempo de leitura e escrita da IA foi medido em modo de teste, com a IA escrevendo a resposta para mensagens reais de pacientes sem enviá-la.",
   "variableMeasured": [
     {
       "@type": "PropertyValue",
@@ -40,16 +40,9 @@
     {
       "@type": "PropertyValue",
       "name": "Tempo mediano para a IA ler a conversa e escrever a resposta, consultório pediátrico",
-      "value": 31,
+      "value": 14,
       "unitText": "segundos",
-      "description": "1.176 respostas de 23 de setembro a 16 de outubro de 2026, modelo gpt-6-luna. Percentil 90 de 62 segundos; 47,5% em menos de 30 segundos."
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Tempo mediano para a IA ler a conversa e escrever a resposta, consultório de saúde mental de adultos",
-      "value": 39,
-      "unitText": "segundos",
-      "description": "630 respostas de 26 de setembro a 16 de outubro de 2026, modelo gpt-6-luna. Percentil 90 de 71 segundos; 30% em menos de 30 segundos."
+      "description": "246 respostas a mensagens reais de pacientes, de 14 a 18 de outubro de 2026, escritas pela IA em modo de teste, sem envio, modelo gpt-6-luna. Percentil 90 de 38 segundos; 84% em menos de 30 segundos."
     },
     {
       "@type": "PropertyValue",

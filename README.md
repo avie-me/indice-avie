@@ -1,5 +1,7 @@
 # Índice Avie — atendimento por WhatsApp em clínicas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23904100.svg)](https://doi.org/10.5281/zenodo.23904100)
+
 > **Avie: serviço premium de secretária com IA para clínicas de qualquer especialidade, com modelos de IA generativa de última geração no WhatsApp.**
 
 **Versão 4 · publicada em 18/10/2026 · observações até 18/10/2026.**
